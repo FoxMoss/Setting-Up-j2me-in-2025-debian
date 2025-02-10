@@ -9,10 +9,7 @@ Extract [this](https://files.mercurywork.shop/rafflesia/java-8-openjdk-32.tar.gz
 * apt install libxtst6:i386 libxt6:i386
 
 # Download sun wireless toolkit
-* Download the linux wtk from oracle's shitty website
-* If you need to make an account put in junk data :P
-* https://www.oracle.com/java/technologies/java-archive-downloads-javame-downloads.html#sun_java_wireless_toolkit-2.5.2_01b-oth-JPR
-
+* Download and install the [sun java wireless toolkit](https://files.mercurywork.shop/foxmoss/retrospect/sun_java_wireless_toolkit-2.5.2_01-linuxi486.bin.sh)
 # Download these plugins 
 1. Download [*this*](https://files.mercurywork.shop/rafflesia/oracle-jmesdk-3-4-rr-nb-plugins.zip) zip file
 2. extract this file
