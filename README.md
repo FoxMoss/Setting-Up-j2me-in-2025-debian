@@ -2,16 +2,18 @@
 
 If you're not from Hack Club and you're trying to build a J2ME application in 2025, I question your motives but here's the most up to guide on the internet for it.
 
+For Arch see [Rafflesia's guide](https://github.com/ProgrammerIn-wonderland/Setting-Up-j2me-in-2025-archlinux/). Most of this guide was adapted from it.
+
 # Guide
 
 ## Install a 32 bit JDK
 Extract [this tarball file](https://files.mercurywork.shop/rafflesia/java-8-openjdk-32.tar.gz) and move it to wherever you want, you'll need it for the WTK.
 
 ## Enable Multilib
-Run `sudo apt install libxtst6:i386 libxt6:i386 libxrender1:i386 libxi6:i386`
+Run `sudo aptitude install libxtst6:i386 libxt6:i386 libxrender1:i386 libxi6:i386`
 
 > [!NOTE]
-> You may need to add the i386 architecture first via `sudo dpkg --add-architecture i386`. Make sure to update your repositories afterwards with `sudo apt update`.
+> You may need to add the i386 architecture first via `sudo dpkg --add-architecture i386`. Make sure to update your repositories afterwards with `sudo aptitude update`.
 
 ## Download Sun Wireless Toolkit
 Download and install the [Sun Java Wireless Toolkit](https://files.mercurywork.shop/foxmoss/retrospect/sun_java_wireless_toolkit-2.5.2_01-linuxi486.bin.sh). It'll ask you for your Java location, point it to where you installed the JDK and append `/bin` to the path.
@@ -31,10 +33,14 @@ Install Netbeans 8.2. This typically requires an Oracle account, but linked [her
 
 ![Screenshot](assets/img_mobility.png)
 
-## Installing the other plugins you need (Painful)
+## Installing the other plugins you need
 1. Still in Tools > Plugins, open the Downloaded tab
-2. Click Add Plugins
-3. Select all the plugins from the ZIP file you extracted earlier. They'll all get added to a list; from here, click Install. Some of them may give you an error; unselect these and try again until you have all the plugins you *can* install.
+2. Select all the plugins from the zip file you used earlier except for the following:
+    - Java ME SDK CPU Profiler Snapshot Viewer
+    - Profiler (Java ME Projects Support)
+    - Profiler Ant Support
+    - Toolbar core
+    - Java ME SDK Welcome Screen.
 
 ![Screenshot](assets/img_jme_plugins.png)
 
@@ -60,5 +66,4 @@ The installer will once again ask you to verify certificates, you can ignore it 
 
 # Notes
 * The run button works perfectly unlike those suckers on Arch :P
-* If you have images to submit to this guide, open a GitHub issue and I'll be happy to add them
 * I didn't test this guide exactly in this order, but its still the correct steps to my knowledge
