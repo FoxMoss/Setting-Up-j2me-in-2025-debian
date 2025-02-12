@@ -21,7 +21,7 @@ Download [this ZIP file](https://files.mercurywork.shop/rafflesia/oracle-jmesdk-
 
 ## Installing Mobility
 Install Netbeans 8.2. This typically requires an Oracle account, but linked [here](https://files.mercurywork.shop/rafflesia/netbeans-8.2-linux.sh) is a script that will let you install it without one.
-1. Run the installer linked above with `--javahome` with the java-8-openjdk-32 you installed. It'll list packs and runtimes it will install, only the following are necessary:
+1. Run the installer linked above with `--javahome` specifying the java-8-openjdk-32 you installed. It'll list packs and runtimes it will install, only the following are necessary:
 	* Base IDE
 	* Java SE
 	* Java ME
@@ -55,6 +55,8 @@ The installer will once again ask you to verify certificates, you can ignore it 
 ## Creating your first project
 * The examples plugin didn't install for you most likely, but I have extracted the Samples and put them in `Samples/` of this repo
 * You can also just create a new project (Box icon), select Java ME, and have your fun that way
+
+![Screenshot](assets/img_emulator.png)
 
 # Notes
 * The run button works perfectly unlike those suckers on Arch :P
