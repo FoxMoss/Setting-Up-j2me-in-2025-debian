@@ -10,7 +10,7 @@ For Arch see [Rafflesia's guide](https://github.com/ProgrammerIn-wonderland/Sett
 Extract [this tarball file](https://files.mercurywork.shop/rafflesia/java-8-openjdk-32.tar.gz) and move it to wherever you want, you'll need it for the WTK.
 
 ## Enable Multilib
-Run `sudo aptitude install libxtst6:i386 libxt6:i386 libxrender1:i386 libxi6:i386`
+Run `sudo apt-get install libxtst6:i386 libxt6:i386 libxrender1:i386 libxi6:i386`
 
 > [!NOTE]
 > You may need to add the i386 architecture first via `sudo dpkg --add-architecture i386`. Make sure to update your repositories afterwards with `sudo aptitude update`.
