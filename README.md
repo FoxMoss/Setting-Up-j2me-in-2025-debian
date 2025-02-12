@@ -21,21 +21,20 @@ Download [this ZIP file](https://files.mercurywork.shop/rafflesia/oracle-jmesdk-
 
 ## Installing Mobility
 Install Netbeans 8.2. This typically requires an Oracle account, but linked [here](https://files.mercurywork.shop/rafflesia/netbeans-8.2-linux.sh) is a script that will let you install it without one.
-1. Run the installer linked above
-2. Run the installer with `--javahome` with the java-8-openjdk-32 you installed. It'll list packs and runtimes it will install, only the following are necessary:
+1. Run the installer linked above with `--javahome` with the java-8-openjdk-32 you installed. It'll list packs and runtimes it will install, only the following are necessary:
 	* Base IDE
 	* Java SE
 	* Java ME
-3. Finish installation
-4. Open Tools > Plugins
-5. Install the **Mobility** plugin. It will prompt you to verify the certificates, just ignore it and click Continue.
+2. Finish installation
+3. Open Tools > Plugins
+4. Install the **Mobility** plugin. It will prompt you to verify the certificates, just ignore it and click Continue.
 
 ![Screenshot](assets/img_mobility.png)
 
 ## Installing the other plugins you need (Painful)
 1. Still in Tools > Plugins, open the Downloaded tab
-3. Click Add Plugins
-4. Select all the plugins from the ZIP file you extracted earlier. They'll all get added to a list; from here, click Install. Some of them may give you an error; unselect these and try again until you have all the plugins you *can* install.
+2. Click Add Plugins
+3. Select all the plugins from the ZIP file you extracted earlier. They'll all get added to a list; from here, click Install. Some of them may give you an error; unselect these and try again until you have all the plugins you *can* install.
 
 ![Screenshot](assets/img_jme_plugins.png)
 
